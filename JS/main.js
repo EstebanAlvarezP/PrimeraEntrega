@@ -2,7 +2,7 @@ const productos = [
     { nombre: "Manzana", precio: 10 },
     { nombre: "Pera", precio: 20 },
     { nombre: "Mango", precio: 15 },
-    // Agrega más productos si es necesario
+    
   ];
 const productosSeleccionados = [];
 
@@ -15,7 +15,7 @@ function agregarProductoSeleccionado(nombreProducto) {
       console.log("Producto no encontrado");
     }
   }
-
+  
 function calcularCostoTotal() {
     let costoTotal = 0;
   
